@@ -39,6 +39,7 @@ ax.annotate('possible elbow point', xy=(5, 80000), xytext=(5, 150000), xycoords=
 
 
 plt.show()
+st.header('Data Set Menggunakan Elbow')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 elbo_plot = st.pyplot()
 
